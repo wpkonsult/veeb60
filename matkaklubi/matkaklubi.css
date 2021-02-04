@@ -11,6 +11,10 @@ height: 778px;
 padding-top: 30px;
 }
 
+#sisemine-paiskonteiner {
+    max-width: 95%;
+} 
+
 .paiskonteiner .menyyriba .logo {
     display: flex;
 }
@@ -36,7 +40,8 @@ padding-top: 30px;
 	font-size: 16.67px;
 	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 2.67px;
+    letter-spacing: 2.67px;
+    padding-top: 15px;
 }
 
 .paiskonteiner .menyyriba .menyy ul {
@@ -64,7 +69,7 @@ padding-top: 30px;
 }
 
 .pealkirjad h1 {
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 800;
 }
 
@@ -77,6 +82,32 @@ padding-top: 30px;
     height: 66px;
     display: block;
     margin-top: -40px;
+}
+
+.pealispilt {
+	overflow: hidden;
+}
+
+.pealispilt .matkaja {
+    display: block;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: -400px;
+}
+
+.pealispilt .vari {
+    display: block;
+    width: 1091px;
+    height: 87px;
+    margin-top: -40px;
+    margin-left: -152px;
+}
+
+@media (min-width: 1200px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 95%;
 }
 
 @media screen and (min-width: 1480px) {
