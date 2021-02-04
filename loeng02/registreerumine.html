@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Registreerumisvorm</title>
+	</head>
+	<body>
+		<h1>Login</h1>
+		<form action="http://wpkonsult.ee/oppurid/veeb40/vormid.php" method="POST">
+			<div>
+				<label for="kasutaja">Kasutaja:</label>
+				<input name="kasutaja" type="text" placeholder="kasutaja" required />
+			</div>																																																												
+			<div>
+				<label for="nimi">Nimi:</label>
+				<input name="nimi" type="text" placeholder="Nimi" />
+			</div>
+			<div>
+				<label for="salasona">Salasõna:</label>
+				<input name="salasona" type="password" placeholder="salasõna" />
+			</div>
+			<div>
+				<label for="salasona2">Salasõna teist korda:</label>
+				<input name="salasona2" type="password" placeholder="salasõna teist korda" />
+			</div>
+			<div>
+				<input name="nousolek" type="checkbox">
+				<label for="nousolek">Olen nõus enda infot saatma</label>
+			</div>
+			<input type="submit" />
+		</form>
+	</body>
+</html>

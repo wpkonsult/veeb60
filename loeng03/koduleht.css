@@ -1,0 +1,51 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+}
+
+#konteiner {
+    color: gray;
+    font-size: 15px;
+    min-width: 700px;
+    min-height: 500px;
+    background-color: white;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+div {
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+}
+
+.pais {
+    width: 100%;
+    height: 300px;
+}
+
+.sisukonteiner {
+    min-height: 300px;
+    width: 100%;
+}
+.vasakpaan {
+    width: 20%;
+    min-width: 100px;
+    height: 100%;
+    display: inline-block;
+}
+
+.sisu {
+    width: 75%;
+    height: 100%;
+    display: inline-block;
+}
+
+.jalus {
+    width: 100%;
+    min-height: 100px;;
+}
+
