@@ -95,13 +95,14 @@ padding-top: 30px;
     width: 1087px;
     height: 87px;
     margin-top: -37px;
-    margin-right: -178px;
+    margin-left: -178px;
 }
 
 @media (min-width: 1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 95%;
     }
+}
 
 @media screen and (min-width: 1480px) {
     .paiskonteiner {
