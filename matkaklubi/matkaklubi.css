@@ -79,6 +79,14 @@ padding-top: 30px;
     margin-top: -40px;
 }
 
+.liblikas2 {
+    height: 32px;
+    width: 60px;
+    display: block;
+    margin-bottom: 40px;
+    margin-left: -62px;
+}
+
 .pealispilt {
     overflow: hidden;
 }
@@ -96,6 +104,21 @@ padding-top: 30px;
     height: 87px;
     margin-top: -37px;
     margin-left: -178px;
+}
+
+.nupp-paises {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2.25px;
+    font-size: 12px;
+    line-height: 46px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 0px;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
 }
 
 @media (min-width: 1200px) {
