@@ -11,7 +11,7 @@ height: 778px;
 padding-top: 30px;
 }
 
-.paiskonteiner .menyyriba .logo {
+.menyyriba .logo {
     display: flex;
 }
 
@@ -31,7 +31,7 @@ padding-top: 30px;
     text-transform: uppercase;
 }
 
-.paiskonteiner .menyyriba .menyy {
+.menyyriba .menyy {
     font-family: 'Montserrat', sans-serif;
 	font-size: 16.67px;
 	font-weight: bold;
@@ -39,12 +39,12 @@ padding-top: 30px;
 	letter-spacing: 2.67px;
 }
 
-.paiskonteiner .menyyriba .menyy ul {
-    display: flex;  
+.menyyriba .menyy ul {
+    display: flex;
     list-style-type: none;
 }
 
-.paiskonteiner .menyyriba .menyy li {
+.menyyriba .menyy li {
     padding: 0px;
     margin-left: 10px;
     min-width: 100px;
@@ -130,5 +130,5 @@ padding-top: 30px;
 @media screen and (min-width: 1480px) {
     .paiskonteiner {
         background: transparent url('./pildid/Hills@2x.png') 50% 50% no-repeat padding-box;
-    }    
+    }
 }
